@@ -1,0 +1,19 @@
+{
+  "name": "BookLike_PDF_Creator",
+  "description": "BookLike PDF Creator",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "private": true,
+  "dependencies": {
+    "hummus": "*",
+    "electron": "*",
+    "jquery": "*",
+    "bootstrap": "*"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.4.0"
+  }
+}
