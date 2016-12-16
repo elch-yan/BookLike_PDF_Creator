@@ -18,6 +18,12 @@
     });
 
     $('#btnConvert').on('click', function() {
-        bookLike(path, () => alert('Yooho your file has been converted!') );
+        bookLike(path, (err) => {
+            if(err) {
+                return alert(err);
+            }
+
+            alert('Yooho your file has been converted!');
+        });
     });
 })();

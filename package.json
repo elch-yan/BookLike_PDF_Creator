@@ -8,10 +8,11 @@
   },
   "private": true,
   "dependencies": {
-    "hummus": "*",
-    "electron": "*",
-    "jquery": "*",
-    "bootstrap": "*"
+    "async": "2.1.4",
+    "hummus": "1.0.66",
+    "electron": "1.4.12",
+    "jquery": "3.1.1",
+    "bootstrap": "3.3.7"
   },
   "devDependencies": {
     "electron-rebuild": "^1.4.0"
