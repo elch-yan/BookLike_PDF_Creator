@@ -8,27 +8,39 @@
     </head>
     <body>
       <div class="container">
-      <h1>Choose pdf to convert to bookLike pdf!</h1>
-        <form role="form">
-          <div class="form-group">
-            <div class="row">
-              <div class="col-md-4">
-                <input type="file" data-placeholder="No file" id="pdfInput" tabindex="-1" style="position: absolute; clip: rect(0px 0px 0px 0px);">
-                <div class="input-group">
-                  <input id="fileNameInput" type="text" class="form-control " placeholder="No file" disabled="">
-                  <span class="input-group-btn" tabindex="0">
-                    <label for="pdfInput" class="btn btn-primary">
-                      <span class="glyphicon glyphicon-folder-open"></span> 
-                      <span class="buttonText">Choose file</span>
-                    </label>
-                  </span>
+        <div class="row">
+          <h3 class="col-md-8 col-sm-8 col-xs-8">Choose pdf to convert to bookLike pdf!</h3>
+          <h3 class="col-md-4 col-sm-4 col-xs-4">Number of sheets in pile</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-sm-8 col-xs-8">
+            <form role="form" >
+              <div class="form-group">
+                <div>
+                  <div>
+                    <input type="file" data-placeholder="No file" id="pdfInput" tabindex="-1" style="position: absolute; clip: rect(0px 0px 0px 0px);">
+                    <div class="input-group">
+                      <input id="fileNameInput" type="text" class="form-control " placeholder="No file" disabled="">
+                      <span class="input-group-btn" tabindex="0">
+                        <label for="pdfInput" class="btn btn-primary">
+                          <span class="glyphicon glyphicon-folder-open"></span> 
+                          <span class="buttonText">Choose file</span>
+                        </label>
+                      </span>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
-        </form>
+          <div class="col-md-4 col-sm-4 col-xs-4 form-group">
+            <select id="slctSheetsInPile" class="selectpicker form-control"></select>
+          </div>
+        </div>
+
         <button id="btnConvert" type="button" class="btn btn-success" disabled="true">Convert</button>
       </div>
       <script type="text/javascript" src="../scripts/index.js"></script>
+      <script type="text/javascript" src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
   </html>
