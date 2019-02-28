@@ -4,7 +4,9 @@ App to restructure pdf in a way so it can be printed just like a book.
 ## About building the project
 
 One thing to know about this project is that it uses electron combined with native modules from hummus library,
-which makes installation it a bit complicated to build the project
+which makes installation a bit complicated.
+
+To build a project:
 
 ```bash
 # First you should run
