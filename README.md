@@ -1,5 +1,5 @@
 # BookLike_PDF_Creator
-App built with node and electron, which makes it easier to print pdf books that look more like books.
+App to restructure pdf in a way so it can be printed just like a book.
 
 ## About building the project
 
